@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary">
+
+
+        <!--    heading-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_back"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/abeezee"
+                    android:padding="15dp"
+                    android:text="Match The Shapes"
+                    android:layout_marginRight="50dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey"
+                    android:textSize="32sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/shape_to_match_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="142dp"
+        android:layout_y="250dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/temp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="62dp"
+        android:layout_y="406dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/shape1_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="62dp"
+        android:layout_y="407dp"
+        android:visibility="invisible"></ImageView>
+
+    <ImageView
+        android:id="@+id/shape2_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="212dp"
+        android:layout_y="409dp"
+        android:visibility="invisible"></ImageView>
+
+    <ImageView
+        android:id="@+id/shape3_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="147dp"
+        android:layout_y="554dp"
+        android:visibility="invisible"></ImageView>
+
+    <ImageView
+        android:id="@+id/shape4_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="15dp"
+        android:layout_y="554dp"
+        android:visibility="invisible"></ImageView>
+
+    <ImageView
+        android:id="@+id/shape5_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_x="282dp"
+        android:layout_y="555dp"
+        android:visibility="invisible"></ImageView>
+
+
+</AbsoluteLayout>
